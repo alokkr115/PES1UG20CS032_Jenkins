@@ -10,14 +10,14 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh './PES1UG20CS032-1'
+                sh './PES1UG20CS039-1'
             }
         }
 
         stage('Deploy') {
             steps {
                 echo 'deployed successfully'
-            
+            }
         }
     }
 
